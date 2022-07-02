@@ -1,0 +1,165 @@
+:root {
+  --primary-text-color: 
+  --accent-color: 
+  --primari-white-color:
+}
+body{
+  background-color: #E5E5E5;
+  color: #212121;
+}
+/* Цвет текста WebStudio */
+.logo {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    text-decoration: none;
+    letter-spacing: 0.03em;
+  
+    color: #2196F3;
+}
+.logo-accent {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+  
+    letter-spacing: 0.03em;
+    color:#000000
+}
+.logo:hover,
+.logo:focus {
+color: rgb(246, 236, 46);
+}
+
+.logo-accent:hover,
+.logo-accent:focus {
+ color: #2196F3;
+}
+ /* header-nav */
+.header-link:hover,
+.header-link:focus {
+   color: var(--primary-text-color);
+}
+.header-item .current {
+  color: #2196F3;
+}
+
+ul {
+  list-style: none;
+}
+.header-mail:hover,
+.header-mail:focus {
+  font-family: 'Roboto';
+color: #2196F3;
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: #757575;
+}
+
+
+/* section Hero */
+
+.hero {
+  background-color: #2F303A;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-btn {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+
+/* section about */
+
+
+
+.about-title {
+font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.about-item {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+  
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+}
+.about {
+  background: #E5E5E5;
+}
+
+
+
+
+.about-titlee {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+
+/* section team */
+
+
+.team {
+  background: #F5F4FA;
+}
+.it-team {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+
+.it {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+}
+
+
+
+/* Footer */
+
+
+footer{
+  background-color: #2F303A;
+  color: rgba(255, 255, 255, 0.6);
+}
