@@ -36,10 +36,18 @@
 
  /* header-nav */
 
-
-.header-link:hover,
-.header-link:focus {
-   color: var(--primary-text-color);
+.header-link {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  
+    color: #212121;
+}
+.header-link:hover,:focus {
+  color: #2196F3;
 }
 .header-item .current {
   color: #2196F3;
@@ -48,11 +56,8 @@
 ul {
   list-style: none;
 }
-.header-mail:hover,
-.header-mail:focus, 
-.header-phone:hover,
-.header-phone:focus {
 
+.header-mail {
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -60,6 +65,23 @@ ul {
     line-height: 16px;
     letter-spacing: 0.02em;
   
+    color: #757575;
+}
+.header-mail:hover,:focus {
+ color: #2196F3;
+}
+.header-phone {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  
+    color: #757575;
+}
+.header-phone:hover,:focus {
+  color: #2196F3;
 }
 
 
@@ -81,6 +103,7 @@ font-family: 'Roboto';
 
   color: #FFFFFF;
 }
+
 .hero-btn {
 
   width: 200px;
@@ -92,6 +115,11 @@ font-family: 'Roboto';
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+background:#138cef;
+}
+
 
 /* section about */
 
@@ -217,10 +245,8 @@ font-family: 'Raleway';
   
     color: #FFFFFF;
 }
-.address-mail:hover,
-.address-mail:focus,
-.address-phone:focus,
-.address-phone:hover {
+.address-mail,
+.address-phone {
   font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -231,4 +257,138 @@ font-family: 'Raleway';
     letter-spacing: 0.03em;
   
     color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
+
+/* portfolio button */
+.all {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+  
+    /* shadow-middle */
+  
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.all:hover,:focus {
+    background: #2196F3;
+}
+.button .current {
+  color: #2196F3;
+}
+.web {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+    background: #F5F4FA;
+     border-radius: 4px;
+}
+.web:hover,:focus {
+    background: #2196F3;
+}
+.app {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+    background: #F5F4FA;
+      border-radius: 4px;
+}
+.app:hover,:focus {
+    background: #2196F3;
+}
+.dis {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+    background: #F5F4FA;
+      border-radius: 4px;
+}
+.dis:hover,:focus {
+    background: #2196F3;
+}
+.markt {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+  
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+    background: #F5F4FA;
+border-radius: 4px;
+}
+.markt:hover,:focus {
+    background: #2196F3;
+}
+
+/* наши возможности */
+.Веб-сайт
+.Дизайн
+.Приложение
+.Маркетинг
+.Маркетинг {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+  
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+}
+.profession {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+  
+    letter-spacing: 0.06em;
+  
+    color: #212121;
 }
