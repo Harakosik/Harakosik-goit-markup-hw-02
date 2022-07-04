@@ -9,20 +9,27 @@
   --footer-primary-color: rgba(255, 255, 255, 0.6);
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      text-decoration: none;
+    }
+
 /* Цвет текста WebStudio */
-.logo {
+
+.logo-link {
   font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-    text-decoration: none;
+  
     letter-spacing: 0.03em;
   
     color: #2196F3;
 }
-.logo-accent {
+.accent {
   font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -105,11 +112,6 @@ font-family: 'Roboto';
 }
 
 .hero-btn {
-
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
  color: #FFFFFF;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -222,7 +224,7 @@ footer{
   background-color: #2F303A;
   color: rgba(255, 255, 255, 0.6);
 }
-.logo .accent {
+.logo-accent {
 font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
